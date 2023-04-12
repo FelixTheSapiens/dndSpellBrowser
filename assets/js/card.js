@@ -2,7 +2,7 @@ class Card {
     constructor(cardData) {
         this.spellData = cardData;
     }
-
+    
     get html() {
         let html = 
         `<div class="card bg-secondary border-white border rounded border-1">
